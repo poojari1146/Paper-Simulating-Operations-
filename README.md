@@ -32,7 +32,7 @@ Scenario 3: Operational Improvements Tested<br>
 - Failures included: POS/credit system failure every 2 weeks
 
 🧩 Model Structure (Built using Simio)<br>
- 🧍 Entities<br>
+   🧍 Entities<br>
 - Dine-in and Online Customers (color-coded for clarity)
 - Orders are treated as copies of customer entities with mapped preferences<br>
 📈 Order Flow & Logic<br>
