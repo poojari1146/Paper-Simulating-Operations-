@@ -32,14 +32,16 @@ Scenario 3: Operational Improvements Tested<br>
 - Failures included: POS/credit system failure every 2 weeks
 
 🧩 Model Structure (Built using Simio)<br>
-   🧍 Entities<br>
+🧍 Entities<br>
 - Dine-in and Online Customers (color-coded for clarity)
-- Orders are treated as copies of customer entities with mapped preferences<br>
+- Orders are treated as copies of customer entities with mapped preferences
+  
 📈 Order Flow & Logic<br>
 - Orders split by category: Chat/Sandwich, Roti/Dosa, Chinese
 - Customers may order from 1, 2, or all 3 stations
 - 25% orders come online, delayed strategically during busy dine-in periods
-- Plating & packaging times depend on order size and type<br>
+- Plating & packaging times depend on order size and type
+  
 🔄 Key Features<br>
 - Matching & combining logic to associate orders with the right customer
 - Queue limits, balking/reneging logic
